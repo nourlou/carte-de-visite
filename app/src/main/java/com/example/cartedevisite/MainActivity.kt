@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = Color(0xFFD7E7D5)
+                    color = Color(0xFF3ddc84)
                 ) {
                     carte()
                 }
@@ -68,7 +68,7 @@ fun carte() {
             )
             Spacer(modifier = Modifier.height(16.dp))
             Text(
-                text = "Jennifer Doe",
+                text = "Nour Louhichi",
                 style = MaterialTheme.typography.titleLarge,
                 color = MaterialTheme.colorScheme.onBackground
             )
@@ -79,9 +79,9 @@ fun carte() {
             )
             Spacer(modifier = Modifier.height(32.dp))
 
-            Contact(Icons.Filled.Call, "+11 (123) 444 555 666")
+            Contact(Icons.Filled.Call, "(+216) 95 038 205")
             Contact(Icons.Filled.Share, "@AndroidDev")
-            Contact(Icons.Filled.Email, "jen.doe@android.com")
+            Contact(Icons.Filled.Email, "nourlouhichi318@gmail.com")
         }
     }
 }
